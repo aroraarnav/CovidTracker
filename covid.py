@@ -76,7 +76,7 @@ def getInfo(country):
 canvas = Canvas(root, height = 500, width = 600)
 canvas.pack()
 
-backgroundImage = PhotoImage(file = "" # Your Path Here)
+backgroundImage = PhotoImage(file = "") # Your Path Here
 backgroundLabel = Label(root, image = backgroundImage)
 backgroundLabel.place (relwidth = 1, relheight = 1)
 
